@@ -64,7 +64,7 @@ function Login({ setUser }) {
             {isSignUp ? t("SignUp") : t("Login")}
           </Title>
           <img
-           src={logo}
+            src={logo}
             alt="logo"
             className={styles["logo-header"]}
           />
