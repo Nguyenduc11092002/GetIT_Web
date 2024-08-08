@@ -12,6 +12,7 @@ import { NavLink } from "react-router-dom";
 import "../assets/style/Pages/Sidebar.scss";
 import LanguageSwitcher from "./LanguageSwitcher";
 import LogoutButton from "./LogoutButton";
+import logo from "../../public/images/logo.jpg"
 
 const { Sider } = Layout;
 
@@ -108,7 +109,7 @@ const Sidebar = ({ role }) => {
     >
       <div className="sidebar-header">
         <img
-          src="/public/images/logo.jpg"
+          src={logo}
           alt="Get IT"
           className="logo-sidebar"
         />
