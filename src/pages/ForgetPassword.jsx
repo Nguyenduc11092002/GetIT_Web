@@ -31,7 +31,7 @@ function ForgetPassword() {
 
       if (user) {
         const [userId] = user;
-        const resetLink = `http://localhost:5173/reset-password?userId=${encodeURIComponent(userId)}`; 
+        const resetLink = `https://web-get-it-5krs.vercel.app/reset-password?userId=${encodeURIComponent(userId)}`; 
 
         const response = await emailjs.send(
           'service_ncefpgz',      // Service ID của bạn
